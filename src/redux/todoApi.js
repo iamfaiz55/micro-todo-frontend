@@ -10,7 +10,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 
 export const todoApi = createApi({
     reducerPath: "api",
-    baseQuery: fetchBaseQuery({ baseUrl: "micro-todo-backend-1t4j.vercel.app/api" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "https://micro-todo-backend-1t4j.vercel.app/api" }),
     tagTypes: ["todo"],
     endpoints: (builder) => {
         return {
